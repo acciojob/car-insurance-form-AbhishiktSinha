@@ -10,6 +10,57 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<header>
+		<h1>
+			Car Insurance Registration Form
+		</h1>
+	</header>
+	<hr>
+
+	<main>
+		<h3>Please enter your details</h3>
+		<form method="post">
+			<label for="name">Name: </label>
+			<input type="text" id="name" name="name" placeholder="Name" required>
+			<br>
+
+			<label for="email">Email: </label>
+			<input type="email" id="email" name="email" placeholder="xyz@gmail.com" required>
+			<br>
+
+			<label style="margin-right:0px">Gender:</label>
+			<input style="margin-left:10px" type="radio" id="gender_m" name="gender">
+			<label style="margin-left:5px" for="gender_m">Male</label>
+			<input type="radio" id="gender_f" name="gender">
+			<label style="margin-left:5px" for="gender_f">Female</label>
+			<br>
+			
+			<label for="cars">Car Brands :</label>
+			<select id="cars" style="margin-bottom: 15px">
+				<option value=""></option>
+				<option value="">BMW</option>
+				<option value="">Audi</option>
+				<option value="">Mercedez</option>
+			</select>
+			<br>
+
+			<label for="carage">Car Age: </label>
+			<input type="number" id="carage" name="carage" placeholder="enter age in years" required>
+			<br>
+
+			<label for="dop">Date of Purchase (dop): </label>
+			<input type="date" id="dop" name="dop" required>
+			<br>
+
+			<label for="password">Password: </label>
+			<input type="password" id=="password" name="password" required>
+			<br>
+
+			<button type="submit">Submit</button>
+			
+			
+		</form>
+	</main>
 
 </body>
 
