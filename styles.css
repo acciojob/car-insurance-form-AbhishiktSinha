@@ -9,6 +9,7 @@ form{
 }
 label{
 	margin: 20px 10px 20px 20px;	
+	font-style: italic;
 }
 input{
 	margin: 0 20px 20px 0;
@@ -23,7 +24,9 @@ button{
 	height: 40px;
 	color: white;
 	border: none;
-	border-radius: 8px;
+	border-radius: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
 }
 button:hover{
 	background-color:#013287
